@@ -1,2 +1,4 @@
-# paralegal-digital-agent
-Assistente jurídico autónomo (Agente IA) com RAG. Processamento multimodal de áudio, imagem e texto para redação automatizada de documentos legais via Streamlit e Hugging Face
+Paralegal Digital - Agente de IA com RAG
+Status: Protótipo / Prova de Conceito (PoC)
+
+O Paralegal Digital é uma solução de Inteligência Artificial generativa baseada numa arquitetura multi-agentes. Este sistema foi desenhado para automatizar a triagem documental e a redação de peças jurídicas. Através da ingestão de dados multimodais — transcrevendo áudios com Whisper, extraindo texto de imagens com EasyOCR e processando PDFs complexos — o agente orquestra modelos de linguagem quantizados (Qwen) para extrair teses jurídicas e injetar a redação final diretamente num ficheiro .docx formatado. O projeto integra capacidades de Retrieval-Augmented Generation (RAG) em tempo real para pesquisa de jurisprudência e apresenta uma interface interativa low-code construída em Streamlit para revisão humana (Human-in-the-loop).
