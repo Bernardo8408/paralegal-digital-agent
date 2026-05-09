@@ -1,0 +1,15 @@
+streamlit
+openai-whisper
+easyocr
+transformers
+pydub
+accelerate
+pyngrok
+PyMuPDF
+python-docx
+duckduckgo-search
+pandas
+psutil
+bitsandbytes
+hf_transfer
+torch

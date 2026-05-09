@@ -1,0 +1,20 @@
+# Ignorar pastas com dados sensíveis de clientes
+Audio/
+Imagens/
+
+# Ignorar banco de dados vetorial e arquivos pesados do RAG
+RAG/*.db
+
+# Ignorar modelos de IA locais (muito pesados)
+modelos/
+
+# Ignorar PDFs e arquivos Word de clientes na pasta Documentos
+Documentos/*.pdf
+Documentos/Contrato*
+Documentos/Relatório*
+Documentos/Procuração*
+
+# Ignorar arquivos temporários do Python e do Mac/Windows
+__pycache__/
+.DS_Store
+*.env
